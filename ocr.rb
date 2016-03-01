@@ -23,7 +23,7 @@ def request_json(content)
                          content: content
                      },
                      features: [{
-                                    type: "LABEL_DETECTION",
+                                    type: "TEXT_DETECTION",
                                     maxResults: 10
                                 }]
                  }]
