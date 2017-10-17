@@ -11,7 +11,7 @@ def request_json(content)
                      },
                      features: [{
                                     type: 'WEB_DETECTION',
-                                    maxResults: 20
+                                    maxResults: 30
                                 }]
                  }]
   }.to_json
